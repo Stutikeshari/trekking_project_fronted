@@ -1,0 +1,83 @@
+*{
+    margin:0px; padding:0px;
+}
+.first_box{
+    background-color: aqua;
+    width:100%;
+    padding:10px;
+    display: flex;
+    font-family: "Poppins", sans-serif;   
+}
+.ulone{
+    list-style-type: none;
+    padding:10px;
+    margin-left: 20px;
+    width:40%;
+    
+}
+.ulone li{
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;margin:20px;
+}
+
+.ultwo{
+    list-style-type: none;
+    padding:10px;
+    width:60%;
+    margin-right: 40px;
+}
+
+.ultwo li{
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    margin:20px;
+}
+/* navbar */
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-left:20px;
+    font-size:20px;
+    padding:10px;
+    
+}
+.logo i{
+    color:aqua;
+    font-size: 40px;
+
+}
+.logo span{
+    font-size: 40px;
+    font-family: "Italianno", cursive;
+    margin-left: 10px;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin:10px;
+    padding:5px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    background-color: rgb(187, 242, 187);
+    color:darkgreen;
+    padding:15px;
+    width:150px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+}
+
+
+

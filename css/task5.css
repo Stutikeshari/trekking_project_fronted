@@ -1,0 +1,44 @@
+*{
+    margin:0; padding: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+}
+.division1{
+    float:left;
+    width:50%;
+}
+.division1 img{
+    height:495px;
+    width:450px;
+    margin: 30px 20px 0px 190px;
+   
+}
+.division2{
+    float: right;
+    width:50%
+   
+}
+.division2 ul{
+    margin: 50px 120px 0px 20px;
+    font-size: 28px;
+}
+li{
+    margin:20px;
+    color:rgb(29, 29, 60);
+    list-style-image: url("image/ticks12.png");
+}
+.btn1{
+    background-color: rgb(250, 97, 41);
+    color:beige;
+    border-style: none;
+    margin-right: 10px;
+    height:60px;
+    width:240px;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-left:60px;
+}

@@ -1,0 +1,73 @@
+*{
+    margin:0px; padding:0px;
+}
+h3{
+    font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color:aqua;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.news_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px 20px;
+    justify-content: center;
+    padding:20px;
+    
+}
+.news_box1{
+    position: relative;
+    
+   
+}
+.news_box1 span{
+    background-color: rgb(76, 217, 217);
+    color: beige;
+    padding:10px;
+    font-size: 22px;
+    position: absolute;
+    border-radius: 5px;
+    top:20px;
+    left:20px;
+}
+.news_box1 img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+.news_box2{
+    border-radius: 10px;
+    border:3px solid aqua;
+    height:220px;
+    width:350px;
+    background-color:beige;
+    padding:30px;  
+}
+.news_box2 span,p{
+    margin-top:20px;
+    margin-bottom: 20px;
+    color:rgba(65, 59, 59, 0.822);
+    padding:5px;
+    font-size: 20px;
+    
+}
+.news_box2 h2{
+    margin-top:22px;
+    margin-bottom:22px;
+    padding:5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

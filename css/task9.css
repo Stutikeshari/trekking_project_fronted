@@ -1,0 +1,74 @@
+*{
+    margin:0px; padding:0px;
+}
+.container1{
+    margin-top:10%;
+    margin-left:25px;
+    width:60%;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color:rgb(16, 34, 27);
+
+}
+.container1 h2{
+   
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 58px;
+}
+.container1 h1{
+    margin:12px 0px 10px 0px;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 120px;
+}
+.container1 p{
+    margin:25px 0px 20px 0px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+}
+.box button{
+    margin-top: 18px;
+    padding:10px;
+    width:200px;
+    color:rgb(35, 150, 150);
+    border:2px solid rgb(35, 150, 150);
+    font-size: 18px;
+    border-radius: 9px;
+    background-color:beige;
+}
+.box button:hover{
+    color:beige;
+    border:2px solid beige;
+    background-color: rgb(35, 150, 150);
+}
+
+#icons{
+    color:#27a1b6;
+    font-size: 30px;
+    margin:5px;
+    padding: 4px;
+}
+#icons2{
+    color:#27a1b6;
+    font-size: 80px;
+    position: absolute;
+    bottom:0%;
+    margin-left: 35px;
+    padding: 4px;
+}
+
+
+.container2{
+    width:38%;
+    top:40px;
+    right:20px;
+    position: absolute;
+    
+}
+.container2 img{
+    height:600px;
+    padding:30px;
+}

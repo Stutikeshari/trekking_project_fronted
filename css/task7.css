@@ -1,0 +1,62 @@
+*{
+    margin:0px;padding:0px;
+}
+.division1{
+    float:left;
+    width:50%;
+}
+.division2{
+    float:right;
+    width:50%;
+}
+h3{
+    font-family: "Satisfy", cursive;
+        font-weight: 700;
+        margin:15px;
+        color:rgb(23, 223, 230);
+        font-size: 30px;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+}
+p{
+    font-family: "Nunito", sans-serif;
+    margin:15px 15px 15px 0px;
+    font-size: 18px;
+   
+    color:rgb(85, 82, 82);
+}
+.list ul{
+    font-family: "Nunito", sans-serif;
+    width:280px;
+}
+
+.list li{ 
+    margin:20px;
+    color:rgb(42, 67, 87);
+    list-style-image:url("/image/ticks12.png");
+    position: relative;
+    width:280px;
+}
+.pic img{
+    top:56%;
+    right:0;
+    transform:translateY(-50%);
+    position: fixed;
+    z-index:100;
+   width:220px;
+   height:150px;
+   padding-right:60px;
+}
+#play{
+    top:55%;
+    right:0px;
+    transform:translateY(-50%);
+    position: absolute;
+    z-index:100;
+    align-items: center;
+    
+}
